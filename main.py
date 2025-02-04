@@ -4,16 +4,6 @@ from datetime import datetime
 from model import SuperResolutionConvolutionalNeuralNetwork, load_images_from
 
 
-def load_image():
-    extensions = ('.jpg', '.jpeg', '.png', '.bmp', '.gif')
-    files = os.listdir(os.getcwd())
-    images = []
-    for file in files:
-        if file.lower().endswith(extensions):
-            images.append(file)
-    return cv2.imread(images[0])
-
-
 def SRCNN(image, scale_factor):
     SRCNN = SuperResolutionConvolutionalNeuralNetwork().load_models()
     if SRCNN is None:

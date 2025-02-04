@@ -114,7 +114,7 @@ class SuperResolutionConvolutionalNeuralNetwork:
             self.low_res,
             self.high_res,
             epochs=self.epochs,
-            batch_size=16,
+            batch_size=self.batch_size,
             validation_split=0.1,
             verbose=1
         )
