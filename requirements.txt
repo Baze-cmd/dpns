@@ -1,0 +1,5 @@
+tensorflow
+kagglehub
+numpy
+matplotlib
+opencv-python
