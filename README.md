@@ -5,7 +5,7 @@ This reposotory contains an application that uses algorithms for improving the r
 - bicubic interpolation
 - super-resolution convolutional neural network
 
-The SRCNN model is a keras sequential model trained using [this dataset](https://www.kaggle.com/datasets/adityachandrasekhar/image-super-resolution), a trained version of it can be found on https://huggingface.co/Bazhe-RL/SRCNN.  
+The SRCNN model is a keras sequential model trained using [this dataset](https://www.kaggle.com/datasets/adityachandrasekhar/image-super-resolution), a trained version of it can be found on https://huggingface.co/Bazhe-RL/SRCNN. If you wish to use it make a /models directory in the root directory and place the model there.  
 Results after 64 epochs:  
 ![SRCNN Image](history/SRCNN-epochs64-bs32-lr0.0001.keras.png)
 
