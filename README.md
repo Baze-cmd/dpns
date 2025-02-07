@@ -6,7 +6,7 @@ This reposotory contains an application that uses algorithms for improving the r
 - super-resolution convolutional neural network
 
 The SRCNN model is a keras sequential model trained using [this dataset](https://www.kaggle.com/datasets/adityachandrasekhar/image-super-resolution), a trained version of it can be found on https://huggingface.co/Bazhe-RL/SRCNN.  
-Results after 64 epochs: 
+Results after 64 epochs:  
 ![SRCNN Image](history/SRCNN-epochs64-bs32-lr0.0001.keras.png)
 
 # Running
